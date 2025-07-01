@@ -67,4 +67,53 @@ Una vez completada la instalación y el enlace, puedes iniciar cada juego utiliz
 
 ## 👀 Demostraciones del Juego (Asciinema)
 
-A continuación, puedes
+A continuación, puedes observar el flujo de cada juego a través de grabaciones de Asciinema. Cada enlace muestra un **escenario de victoria** y un **escenario de derrota**, para que puedas ver el comportamiento completo del juego.
+
+* **Brain Even:**
+    [https://asciinema.org/a/bKlil8bF0YdhfbwqeAJK4Y4Q6](https://asciinema.org/a/bKlil8bF0YdhfbwqeAJK4Y4Q6)
+
+* **Brain Calc:**
+    [https://asciinema.org/a/exoLPM7MK7IpGS9AuSTQ7ITGA](https://asciinema.org/a/exoLPM7MK7IpGS9AuSTQ7ITGA)
+
+* **Brain GCD:**
+    [https://asciinema.org/a/QGlzTBxQ4WTwq1wFjKXHLgHLm](https://asciinema.org/a/QGlzTBxQ4WTwq1wFjKXHLgHLm)
+
+* **Brain Progression:**
+    [https://asciinema.org/a/aFz3qcjBVRjbY6if66wHDEOvq](https://asciinema.org/a/aFz3qcjBVRjbY6if66wHDEOvq)
+
+* **Brain Prime:**
+    [https://asciinema.org/a/GEOfKWsOjB6c8Kocm7pFzu8A9](https://asciinema.org/a/GEOfKWsOjB6c8Kocm7pFzu8A9)
+
+---
+
+## ✅ Estado del Proyecto
+
+Estas insignias te permiten verificar el estado actual de las pruebas automatizadas y la calidad del código, asegurando que el proyecto cumple con los estándares establecidos por Hexlet.
+
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/Dsx1029/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Dsx1029/fullstack-javascript-project-98/actions)
+
+### Calidad y Mantenibilidad del Código:
+[![Maintainability](https://qlty.sh/badges/ee0b5658-7939-4a69-a72b-f1da1bd070e6/maintainability.svg)](https://qlty.sh/gh/Dsx1029/projects/fullstack-javascript-project-98)
+
+---
+
+## 🏗️ Estructura del Código y Principios de Diseño
+
+El proyecto ha sido diseñado y desarrollado siguiendo principios de **código limpio, modularidad** y **mantenibilidad**, pilares fundamentales en el desarrollo de software moderno:
+
+* **Enfoque Funcional:** El código se basa en funciones puras y se evita el uso de clases, lo que simplifica la lógica y promueve la reutilización.
+* **Sin "Números Mágicos":** Todos los valores numéricos importantes tienen un significado claro o están definidos explícitamente como constantes.
+* **Ejecución Controlada:** No hay código que se ejecute a nivel de módulo; todas las funciones se invocan de forma explícita desde sus respectivos archivos ejecutables.
+* **Modularidad Clara:**
+    * La **lógica general** del juego (manejo de rondas, interacción con el usuario y la salida de consola) se encuentra centralizada en `src/index.js`.
+    * La lógica **específica de cada juego** está encapsulada de forma independiente en módulos dedicados, ubicados dentro del directorio `src/games/`.
+* **Estándares de Codificación:** El código cumple rigurosamente con las reglas de linting, lo que garantiza consistencia, legibilidad y reduce la probabilidad de errores.
+
+---
+
+## ✉️ Contacto
+
+Si tienes alguna pregunta, comentario o sugerencia sobre este proyecto, no dudes en contactarme a través de mi perfil de GitHub.
+
+---
