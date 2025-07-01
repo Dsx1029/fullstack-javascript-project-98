@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import brainGcd from '../src/games/gcd.js'; // Importa la función principal del juego MCD
+import runGame from '../src/index.js';
+import gcdGame from '../src/games/gcd.js';
 
-brainGcd(); // Ejecuta el juego
+runGame(gcdGame.description, gcdGame.generateRound);

@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-import runGame from '../src/index.js'; // Importar el motor del juego
-import evenGame from '../src/games/even.js'; // Importar la lógica específica del juego
+import runGame from '../src/index.js'; // Importa el motor del juego
+import evenGame from '../src/games/even.js'; // Importa la lógica específica del juego
 
-runGame(evenGame, userName); // Luego ejecutar el juego con el nombre obtenido
+// Llama a runGame con la descripción del juego y su función para generar rondas.
+// La función 'runGame' (en src/index.js) ahora se encarga de saludar al usuario y obtener su nombre.
+runGame(evenGame.description, evenGame.generateRound);
