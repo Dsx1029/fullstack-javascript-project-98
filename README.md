@@ -86,4 +86,34 @@ Observa cómo se juega cada uno de los Brain Games. Cada enlace muestra tanto un
 
 ---
 
-## ✅ Estado
+## ✅ Estado del Proyecto
+
+Aquí puedes ver el estado actual de las pruebas automáticas y la calidad del código, asegurando que el proyecto cumple con los estándares establecidos.
+
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/Dsx1029/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Dsx1029/fullstack-javascript-project-98/actions)
+
+### Calidad y Mantenibilidad del Código:
+[![Maintainability](https://qlty.sh/badges/ee0b5658-7939-4a69-a72b-f1da1bd070e6/maintainability.svg)](https://qlty.sh/gh/Dsx1029/projects/fullstack-javascript-project-98)
+
+---
+
+## 🏗️ Estructura del Código y Principios de Diseño
+
+El proyecto está diseñado y desarrollado siguiendo principios de **código limpio** y **mantenibilidad**:
+
+* **Enfoque Funcional:** El código se basa en funciones puras, evitando el uso de clases para simplificar la lógica.
+* **Sin "Números Mágicos":** Todos los valores numéricos importantes tienen un significado claro o están definidos como constantes.
+* **Ejecución Controlada:** No hay código que se ejecute a nivel de módulo; todas las operaciones se inician explícitamente desde los archivos ejecutables de cada juego.
+* **Modularidad Clara:**
+    * La **lógica general** del juego (manejo de rondas, interacción con el usuario) se encuentra centralizada en `src/index.js`.
+    * La lógica **específica de cada juego** está encapsulada en módulos dedicados dentro del directorio `src/games/`.
+* **Estándares de Codificación:** El código cumple con las reglas de linting, garantizando consistencia y alta legibilidad.
+
+---
+
+## ✉️ Contacto
+
+Si tienes alguna pregunta, comentario o sugerencia sobre este proyecto, no dudes en contactarme.
+
+---
