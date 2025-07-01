@@ -115,5 +115,3 @@ El proyecto ha sido diseñado y desarrollado siguiendo principios de **código l
 ## ✉️ Contacto
 
 Si tienes alguna pregunta, comentario o sugerencia sobre este proyecto, no dudes en contactarme a través de mi perfil de GitHub.
-
----
